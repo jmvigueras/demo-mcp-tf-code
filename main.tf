@@ -9,7 +9,7 @@ locals {
 #--------------------------------------------------------------------------------------------------------------
 module "fgt-cluster" {
   source  = "jmvigueras/ftnt-aws-modules/aws//examples/basic_fgt-cluster"
-  version = "0.0.12"
+  version = "0.0.15"
 
   prefix = local.prefix
 
